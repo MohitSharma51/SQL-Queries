@@ -10,9 +10,9 @@ Your role is to analyse the provided data to help Steve with all the answers he 
 
 
 ![Car_Image](https://images.unsplash.com/photo-1547744152-14d985cb937f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8Zm9yZCUyMG11c3Rhbmd8ZW58MHx8MHx8&w=1000&q=80)
-## Data Credit - Steeldata
+## Data Source
 
- - [Click here to navigate to the challenge ](https://www.steeldata.org.uk/SQL1.html)
+ - [You can find this SQL challenge on website Steeldata ](https://www.steeldata.org.uk/SQL1.html)
 
 
 
