@@ -1,0 +1,52 @@
+
+# Challenge #1 - Customer_Insigths_study
+
+Steve runs a top-end car showroom but his data analyst has just quit and left him without his crucial insights.
+
+Your role is to analyse the provided data to help him with all the answers he requires.
+
+
+
+
+
+![Car_Image](https://images.unsplash.com/photo-1547744152-14d985cb937f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8Zm9yZCUyMG11c3Rhbmd8ZW58MHx8MHx8&w=1000&q=80)
+## Data Credit - Steeldata
+
+ - [Click here to navigate to the challenge ](https://www.steeldata.org.uk/SQL1.html)
+
+
+
+## Table Names
+
+
+![Table Names](https://www.steeldata.org.uk/assets/images/challenge1tables.jpg)
+
+# Table Details
+
+The dataset includes the following tables, which are used for the analysis purpose:
+- Sales: Consists sales details about when the car were sold, who was the salesman, sales id etc
+- Cars: It includes details of car such as car id, car company name, type, style, and cost of the car
+- Salespersons: This table is having details of the salespersons who works in the showroom and has sold the cars
+## Tool Used
+
+![Tool Used](data:image/png;base64,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)
+## Queries Answered
+
+1. What are the details of all cars purchased in the year 2022?
+2. What is the total number of cars sold by each salesperson?
+3. What is the total revenue generated by each salesperson?
+4. What are the details of the cars sold by each salesperson?
+5. What is the total revenue generated by each car type?
+6. What are the details of the cars sold in the year 2021 by salesperson 'Emily Wong'?
+7. What is the total revenue generated by the sales of hatchback cars?
+8. What is the total revenue generated by the sales of SUV cars in the year 2022?
+9. What is the name and city of the salesperson who sold the most number of cars in the year 2023?
+10. What is the name and age of the salesperson who generated the highest revenue in the year 2022?
+## Few of the Insights Generated
+
+- 'Tom Lee' is the salesman who has sold the maximum number of cars (no. of cars sold: 6). Also, Tom has generated the highest revenue ($253000) among all the salesman
+- 'X5' car type has generated the highest revenue in comparison to other car types ($220000) 
+- 'John Smith' is the youngest salesman (age:28) working in the showroom whereas 'Tom Lee' is the oldest salesman (age:42)
+- The showroom sells cars in the range between $25000 - $60000
+- BMW has achieved the highest sales ($220000)
+- SUV cars generated highest revenue ($300000) as compared to other style category
