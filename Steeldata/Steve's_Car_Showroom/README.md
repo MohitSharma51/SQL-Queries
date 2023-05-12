@@ -3,7 +3,7 @@
 
 Steve runs a top-end car showroom but his data analyst has just quit and left him without his crucial insights.
 
-Your role is to analyse the provided data to help him with all the answers he requires.
+Your role is to analyse the provided data to help him with all the answers Steve requires.
 
 
 
@@ -24,9 +24,9 @@ Your role is to analyse the provided data to help him with all the answers he re
 # Table Details
 
 The dataset includes the following tables, which are used for the analysis purpose:
-- Sales: Consists sales details about when the car were sold, who was the salesman, sales id etc
+- Sales: Consists sales details about cars such as when the car were sold, who was the salesman etc
 - Cars: It includes details of car such as car id, car company name, type, style, and cost of the car
-- Salespersons: This table is having details of the salespersons who works in the showroom and has sold the cars
+- Salespersons: This table is having details of the salespersons who work in the showroom and have sold the cars
 ## Tool Used
 
 ![Table Names](https://www.bconcepts.pt/wp-content/uploads/2020/11/Microsoft-SQL-Server.png)
