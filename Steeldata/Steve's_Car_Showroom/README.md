@@ -3,7 +3,7 @@
 
 Steve runs a top-end car showroom but his data analyst has just quit and left him without his crucial insights.
 
-Your role is to analyse the provided data to help him with all the answers Steve requires.
+Your role is to analyse the provided data to help Steve with all the answers he requires.
 
 
 
