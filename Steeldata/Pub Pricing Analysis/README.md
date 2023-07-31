@@ -1,5 +1,5 @@
 
-# Challenge #5 -  Pub pricing analysis
+# Challenge #5 -  Pub Pricing Analysis
 
 
 As a Pricing Analyst at 'Pubs "R" Us,' the task is to analyze drinks prices and sales for insights into pub performance. This analysis will provide a greater understanding of how pub chain's pubs are performing.
