@@ -10,7 +10,7 @@ Can you analyse the following data to find out all about the tournament?
 
 
 
-## Data Credit - - Steeldata
+## Data Credit - Steeldata
 
 [Click here to navigate to the challenge ](https://www.steeldata.org.uk/sql2.html)
 ## Table Details
