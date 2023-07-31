@@ -5,7 +5,7 @@ Steve runs a top-end car showroom but his data analyst has just quit and left hi
 
 Your role is to analyse the provided data to help Steve with all the answers he requires.
 
-![Car_Image](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5UJkpkjz_jbWEhpiKaPcRJ-DCLBUUZ9KRHQ&usqp=CAU)
+![Car_Image](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5UJkpkjz_jbWEhpiKaPcRJ-DCLBUUZ9KRHQ&usqp=CAU](https://e1.pxfuel.com/desktop-wallpaper/542/539/desktop-wallpaper-car-showrooms-car-showroom.jpg)
 
 
 
