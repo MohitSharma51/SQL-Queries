@@ -34,9 +34,3 @@ The role is to analyse the following data to find more about the tournament
 8. Which team won the most matches?
 9. What are the team names and the number of players in each team whose salary is greater than 100,000?
 10. What is the date and the score of the match with match_id = 3?
-## Insights Generated
-
-- There are seven players who are earning more than 100000 in which three are from 'SK Telecom T1' and two from 'Cloud9'
-- The highest number of matches are won by team 'SK Telecom T1' (4 matches) followed by 'Cloud9' which has won 3 matches
-- South Korea team has the highest average salary of the players (124333) while USA team has the lowest average salary of the players (97166)
-- The highest score achieved by any team is 17 while lowest score achieved is 9
