@@ -34,10 +34,4 @@ As a Finance Analyst at 'The Big Bank,' the task is to study customer accounts a
 8.Which branch has the highest total balance across all of its accounts?
 9. Which customer has the highest total balance across all of their accounts, including savings and checking accounts?
 10. Which branch has the highest number of transactions in the Transactions table?
-## Insights Generated
 
-- The youngest customer is of age 23 while the oldest customer is having age of 49
-- 50% customers can receive the marketing email while the rest 50% can not
-- Highest total revenue was earned by Vitamins category (USD 66.93) followed by Sports category (USD 37.47)
-- Out of 8 orders, 5 orders were made through retail channel while 3 orders were made online
-- The highest number of orders are placed from the country UK (5 orders)
