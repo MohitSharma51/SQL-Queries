@@ -40,6 +40,16 @@ AND pst.poster = reac.poster
 WHERE reac.reaction = 'heart'
 GROUP BY pst.post_id,pst.poster, pst.post_text, post_keywords, post_date;
 
+/* Meta/Facebook has developed a new programing language called Hack.To measure the popularity of Hack they ran a survey with their employees. The survey included data on previous programing familiarity as well as the number of years of experience, age, gender and most importantly satisfaction with Hack. Due to an error location data was not collected, but your supervisor demands a report showing average popularity of Hack by office location. Luckily the user IDs of employees completing the surveys were stored.
+Based on the above, find the average popularity of the Hack per office location.
+Output the location along with the average popularity.*/
+
+select location, Avg(hck.popularity) AS average_popularity
+from facebook_employees emp
+JOIN facebook_hack_survey hck
+ON emp.id = hck.employee_id
+GROUP BY location;
+
 /*Find all Lyft drivers who earn either equal to or less than 30k USD or equal to or more than 70k USD. 
 Output all details related to retrieved records.*/
 
@@ -62,6 +72,18 @@ ORDER BY no_of_appearance DESC;
 SELECT employeename, basepay
 FROM sf_public_salaries
 WHERE jobtitle = 'CAPTAIN III (POLICE DEPARTMENT)';
+
+/*Find the details of each customer regardless of whether the customer made an order.
+Output the customer's first name, last name, and the city along with the order details.
+You may have duplicate rows in your results due to a customer ordering several of the same items.
+Sort records based on the customer's first name and the order details in ascending order.*/
+
+SELECT first_name, last_name, city, order_details
+FROM customers c
+LEFT JOIN orders od ON
+od.cust_id = c.id
+ORDER BY first_name, order_details;
+
 
 /*Find libraries who haven't provided the email address in circulation year 2016 but their notice preference definition is set to email.
 Output the library code.*/
@@ -124,9 +146,18 @@ WHERE device = 'macbook pro'
 GROUP BY event_name
 ORDER BY event_count DESC;
 
-/*Find the average number of bathrooms and bedrooms for each city’s property types.
+/*Find the average number of bathrooms and bedrooms for each cityâ€™s property types.
 Output the result along with the city name and the property type.*/
 
 SELECT city, property_type, AVG(bedrooms) AS avg_no_bedrooms, AVG(bathrooms) AS avg_no_bathrooms
 FROM airbnb_search_details
 GROUP BY city, property_type;
+
+/*Find the number of rows for each review score earned by 'Hotel Arena'. Output the hotel name (which should be 'Hotel Arena'),
+review score along with the corresponding number of rows with that score for the specified hotel.*/
+
+SELECT hotel_name, reviewer_score, COUNT(*) AS no_of_rows
+FROM hotel_reviews
+WHERE hotel_name = 'Hotel Arena'
+GROUP BY hotel_name, reviewer_score
+ORDER BY reviewer_score;
