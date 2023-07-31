@@ -10,7 +10,7 @@ Your role is to analyse the provided data to help Steve with all the answers he 
 
 
 
-## Data Credit - - Steeldata
+## Data Credit - Steeldata
 
 [Click here to navigate to the challenge ](https://www.steeldata.org.uk/SQL1.html)
 ## Table Details
