@@ -2,7 +2,7 @@
 # Challenge #3 - Customer Insights
 
 As a customer insights analyst for 'The General Store', the challenge involves analysing the sales data of stores, and to 
-find out and share crucial information about customers to provide to your marketing team?
+find out and share crucial information about customers to provide to your marketing team
 
 ![Store_Image](https://www.steeldata.org.uk/sql3.jpg)
 
