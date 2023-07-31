@@ -161,3 +161,35 @@ FROM hotel_reviews
 WHERE hotel_name = 'Hotel Arena'
 GROUP BY hotel_name, reviewer_score
 ORDER BY reviewer_score;
+
+--Find all Lyft drivers who earn either equal to or less than 30k USD or equal to or more than 70k USD. Output all details related to retrieved records.
+
+SELECT * FROM lyft_drivers
+WHERE yearly_salary = 30000 OR yearly_salary < 30000
+OR yearly_salary = 70000 OR yearly_salary > 70000;
+
+/*Find the number of workers by department who joined in or after April. Output the department name along with the corresponding number of workers.
+Sort records based on the number of workers in descending order.*/
+
+SELECT department, COUNT(*) AS no_of_workers
+FROM worker
+WHERE extract(month FROM joining_date) >= 4
+GROUP BY department;
+
+-- Find the number of employees working in the Admin department that joined in April or later.
+
+SELECT COUNT(*) AS no_of_employees
+FROM worker
+WHERE department = 'Admin'
+AND Extract(month FROM joining_date) >= 4;
+
+/*You have been asked to find the 5 most lucrative products in terms of total revenue for the first half of 2022 (from January to June inclusive).
+Output their IDs and the total revenue.*/
+
+SELECT product_id, SUM(units_sold*cost_in_dollars) AS total_revenue
+FROM online_orders
+WHERE extract(month FROM date) BETWEEN 1 AND 6
+GROUP BY product_id
+ORDER BY total_revenue DESC
+LIMIT 5;
+
