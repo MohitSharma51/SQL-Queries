@@ -35,10 +35,3 @@ As a Pricing Analyst at 'Pubs "R" Us,' the task is to analyze drinks prices and 
 9. What is the running total of sales amount for each pub, ordered by the transaction date?
 10. For each country, what is the average price per unit of beverages in each category, and what is the overall average price per unit of beverages across all categories?
 11. For each pub, what is the percentage contribution of each category of beverages to the total sales amount, and what is the pub's overall sales amount?
-## Insights Generated
-
-- The youngest customer is of age 23 while the oldest customer is having age of 49
-- 50% customers can receive the marketing email while the rest 50% can not
-- Highest total revenue was earned by Vitamins category (USD 66.93) followed by Sports category (USD 37.47)
-- Out of 8 orders, 5 orders were made through retail channel while 3 orders were made online
-- The highest number of orders are placed from the country UK (5 orders)
