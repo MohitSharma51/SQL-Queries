@@ -193,3 +193,19 @@ GROUP BY product_id
 ORDER BY total_revenue DESC
 LIMIT 5;
 
+/*Write a query that will calculate the number of shipments per month.
+The unique key for one shipment is a combination of shipment_id and sub_id. Output the year_month in format YYYY-MM and the number of shipments in that month.*/
+
+SELECT to_char(shipment_date,'YYYY-MM') AS year_month,
+COUNT(DISTINCT (shipment_id,sub_id))
+FROM amazon_shipment
+GROUP BY year_month
+
+-- Write a query that returns the number of unique users per client per month
+
+SELECT client_id, EXTRACT(month FROM time_id) AS mnth,
+COUNT(DISTINCT(user_id)) AS user_per_month
+FROM fact_events
+GROUP BY client_id, mnth;
+
+
