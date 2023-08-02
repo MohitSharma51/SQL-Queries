@@ -44,8 +44,8 @@ GROUP BY pst.post_id,pst.poster, pst.post_text, post_keywords, post_date;
 Based on the above, find the average popularity of the Hack per office location.
 Output the location along with the average popularity.*/
 
-select location, Avg(hck.popularity) AS average_popularity
-from facebook_employees emp
+SELECT location, Avg(hck.popularity) AS average_popularity
+FROM facebook_employees emp
 JOIN facebook_hack_survey hck
 ON emp.id = hck.employee_id
 GROUP BY location;
@@ -99,7 +99,7 @@ Output the department, first name, and salary of employees along with the averag
 
 SELECT department, first_name, salary, 
 AVG(salary) OVER (PARTITION BY department)
-from employee
+FROM employee
 GROUP BY department, first_name, salary;
 
 /* Find order details made by Jill and Eva. Consider the Jill and Eva as first names of customers.
@@ -118,7 +118,7 @@ You may have duplicate rows in your results due to a customer ordering several o
 Sort records based on the customer's first name and the order details in ascending order.*/
 
 SELECT first_name, last_name, city, order_details
-from customers c
+FROM customers c
 LEFT JOIN orders od ON
 od.cust_id = c.id
 ORDER BY first_name, order_details;
